@@ -8,14 +8,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Inserte los largos de los lados de su triéngulo: " << endl;
+    cout << "Inserte los largos de los lados de su triángulo: " << endl;
     
     int lado_a, lado_b;
     cin >> lado_a;
     cin >> lado_b;
     //Bloque de ingreso de datos
-
-    //cout << "The inputs are: " << lado_a << " and " << lado_b;
 
     float hipot = sqrt((lado_a*lado_a)+(lado_b*lado_b));
     float perim = lado_a + lado_b + hipot;
@@ -24,7 +22,7 @@ int main()
     cout << "Los resultados fueron: " << endl;
     cout << "Hipotenusa: " << hipot;
     cout << " Perimetro: " << perim;
-    cout << " Area: " << area;
+    cout << " Area: " << area << endl;
 
     return 0;
 }
