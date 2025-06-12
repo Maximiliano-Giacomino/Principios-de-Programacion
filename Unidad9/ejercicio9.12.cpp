@@ -41,7 +41,7 @@ int main() {
     
 
     //Add the values to the vector: 
-    alumno1.notas.resize(35, 0);
+    alumno1.notas.resize(35, 0); //We always need to give it a size at the start because it can't be done within the struct template
     alumno1.notas[6] = 8;
     alumno1.notas[11] = 7;
     alumno1.notas[12] = 10;
