@@ -3,6 +3,7 @@
 #include <cmath>
 #include <string>
 #include <vector>
+#include "matrix"
 using namespace std;
 // Considere el struct ficha_alumno del ejercicio anterior y realice lo siguiente:
 // a. Agregue al tipo ficha_alumno un campo llamado materias el cual debe
