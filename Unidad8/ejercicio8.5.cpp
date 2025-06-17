@@ -2,7 +2,6 @@
 #include <iomanip>
 #include <cmath>
 using namespace std;
-
 // Desarrolle una función llamada Intercambia(...) que reciba dos variables enteras
 // por referencia e intercambie sus valores. Escriba dos sobrecargas de la función
 // que permitan realizar el mismo procedimiento con dos datos de tipo real, y dos de

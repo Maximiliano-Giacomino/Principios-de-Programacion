@@ -2,6 +2,11 @@
     "files.associations": {
         "iomanip": "cpp",
         "ostream": "cpp",
+<<<<<<< HEAD
         "iostream": "cpp"
+=======
+        "iostream": "cpp",
+        "cmath": "cpp"
+>>>>>>> 49fc4d413b9727ff55d39e64430e6de4a545232a
     }
 }
